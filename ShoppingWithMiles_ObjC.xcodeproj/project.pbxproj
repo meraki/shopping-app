@@ -7,25 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5694C4481CB7C31000C384B1 /* Information-Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5694C4471CB7C31000C384B1 /* Information-Icon.png */; };
+		5694C44A1CB7C9A400C384B1 /* Refresh-Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5694C4491CB7C9A400C384B1 /* Refresh-Icon.png */; };
+		56B865FA1CB2595F003696B1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56B865F91CB2595F003696B1 /* QuartzCore.framework */; };
 		56CBE8DE1CB2234100F3CA19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56CBE8DD1CB2234100F3CA19 /* main.m */; };
 		56CBE8E11CB2234100F3CA19 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56CBE8E01CB2234100F3CA19 /* AppDelegate.m */; };
-		56CBE8E41CB2234100F3CA19 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56CBE8E31CB2234100F3CA19 /* ViewController.m */; };
+		56CBE8E41CB2234100F3CA19 /* BeaconViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56CBE8E31CB2234100F3CA19 /* BeaconViewController.m */; };
 		56CBE8E71CB2234100F3CA19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56CBE8E51CB2234100F3CA19 /* Main.storyboard */; };
 		56CBE8E91CB2234100F3CA19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56CBE8E81CB2234100F3CA19 /* Assets.xcassets */; };
 		56CBE8EC1CB2234100F3CA19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56CBE8EA1CB2234100F3CA19 /* LaunchScreen.storyboard */; };
+		56CBE8F41CB2258200F3CA19 /* OfferViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56CBE8F31CB2258200F3CA19 /* OfferViewController.m */; };
+		56CBE8FD1CB2327D00F3CA19 /* MR-Offer.png in Resources */ = {isa = PBXBuildFile; fileRef = 56CBE8F71CB2327D00F3CA19 /* MR-Offer.png */; };
+		56CBE8FE1CB2327D00F3CA19 /* MS-Offer.png in Resources */ = {isa = PBXBuildFile; fileRef = 56CBE8F81CB2327D00F3CA19 /* MS-Offer.png */; };
+		56CBE8FF1CB2327D00F3CA19 /* MX-Offer.png in Resources */ = {isa = PBXBuildFile; fileRef = 56CBE8F91CB2327D00F3CA19 /* MX-Offer.png */; };
+		56CBE9001CB2327D00F3CA19 /* Settings-Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 56CBE8FA1CB2327D00F3CA19 /* Settings-Icon.png */; };
+		56CBE9011CB2327D00F3CA19 /* Shopping-With-Miles-Image.png in Resources */ = {isa = PBXBuildFile; fileRef = 56CBE8FB1CB2327D00F3CA19 /* Shopping-With-Miles-Image.png */; };
+		56CBE9021CB2327D00F3CA19 /* SM-Offer.png in Resources */ = {isa = PBXBuildFile; fileRef = 56CBE8FC1CB2327D00F3CA19 /* SM-Offer.png */; };
+		56CBE9041CB232A300F3CA19 /* Cisco-Meraki.png in Resources */ = {isa = PBXBuildFile; fileRef = 56CBE9031CB232A300F3CA19 /* Cisco-Meraki.png */; };
+		56CBE9071CB2438300F3CA19 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56CBE9061CB2438300F3CA19 /* SettingsViewController.m */; };
+		56CBE9091CB250FB00F3CA19 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56CBE9081CB250FB00F3CA19 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5694C4471CB7C31000C384B1 /* Information-Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Information-Icon.png"; sourceTree = "<group>"; };
+		5694C4491CB7C9A400C384B1 /* Refresh-Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Refresh-Icon.png"; sourceTree = "<group>"; };
+		56B865F91CB2595F003696B1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		56CBE8D91CB2234100F3CA19 /* ShoppingWithMiles_ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingWithMiles_ObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56CBE8DD1CB2234100F3CA19 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		56CBE8DF1CB2234100F3CA19 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		56CBE8E01CB2234100F3CA19 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		56CBE8E21CB2234100F3CA19 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		56CBE8E31CB2234100F3CA19 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		56CBE8E21CB2234100F3CA19 /* BeaconViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeaconViewController.h; sourceTree = "<group>"; };
+		56CBE8E31CB2234100F3CA19 /* BeaconViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeaconViewController.m; sourceTree = "<group>"; };
 		56CBE8E61CB2234100F3CA19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		56CBE8E81CB2234100F3CA19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56CBE8EB1CB2234100F3CA19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		56CBE8ED1CB2234100F3CA19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56CBE8F31CB2258200F3CA19 /* OfferViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OfferViewController.m; path = ShoppingWithMiles_ObjC/OfferViewController.m; sourceTree = "<group>"; };
+		56CBE8F51CB2260300F3CA19 /* OfferViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OfferViewController.h; path = ShoppingWithMiles_ObjC/OfferViewController.h; sourceTree = "<group>"; };
+		56CBE8F71CB2327D00F3CA19 /* MR-Offer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MR-Offer.png"; sourceTree = "<group>"; };
+		56CBE8F81CB2327D00F3CA19 /* MS-Offer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MS-Offer.png"; sourceTree = "<group>"; };
+		56CBE8F91CB2327D00F3CA19 /* MX-Offer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MX-Offer.png"; sourceTree = "<group>"; };
+		56CBE8FA1CB2327D00F3CA19 /* Settings-Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Settings-Icon.png"; sourceTree = "<group>"; };
+		56CBE8FB1CB2327D00F3CA19 /* Shopping-With-Miles-Image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Shopping-With-Miles-Image.png"; sourceTree = "<group>"; };
+		56CBE8FC1CB2327D00F3CA19 /* SM-Offer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SM-Offer.png"; sourceTree = "<group>"; };
+		56CBE9031CB232A300F3CA19 /* Cisco-Meraki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cisco-Meraki.png"; sourceTree = "<group>"; };
+		56CBE9051CB2438300F3CA19 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		56CBE9061CB2438300F3CA19 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		56CBE9081CB250FB00F3CA19 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +61,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56B865FA1CB2595F003696B1 /* QuartzCore.framework in Frameworks */,
+				56CBE9091CB250FB00F3CA19 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +72,10 @@
 		56CBE8D01CB2234100F3CA19 = {
 			isa = PBXGroup;
 			children = (
+				56B865F91CB2595F003696B1 /* QuartzCore.framework */,
+				56CBE8F31CB2258200F3CA19 /* OfferViewController.m */,
+				56CBE8F51CB2260300F3CA19 /* OfferViewController.h */,
+				56CBE9081CB250FB00F3CA19 /* CoreLocation.framework */,
 				56CBE8DB1CB2234100F3CA19 /* ShoppingWithMiles_ObjC */,
 				56CBE8DA1CB2234100F3CA19 /* Products */,
 			);
@@ -58,10 +92,13 @@
 		56CBE8DB1CB2234100F3CA19 /* ShoppingWithMiles_ObjC */ = {
 			isa = PBXGroup;
 			children = (
+				56CBE8F61CB2323900F3CA19 /* Images */,
 				56CBE8DF1CB2234100F3CA19 /* AppDelegate.h */,
 				56CBE8E01CB2234100F3CA19 /* AppDelegate.m */,
-				56CBE8E21CB2234100F3CA19 /* ViewController.h */,
-				56CBE8E31CB2234100F3CA19 /* ViewController.m */,
+				56CBE8E21CB2234100F3CA19 /* BeaconViewController.h */,
+				56CBE8E31CB2234100F3CA19 /* BeaconViewController.m */,
+				56CBE9051CB2438300F3CA19 /* SettingsViewController.h */,
+				56CBE9061CB2438300F3CA19 /* SettingsViewController.m */,
 				56CBE8E51CB2234100F3CA19 /* Main.storyboard */,
 				56CBE8E81CB2234100F3CA19 /* Assets.xcassets */,
 				56CBE8EA1CB2234100F3CA19 /* LaunchScreen.storyboard */,
@@ -77,6 +114,22 @@
 				56CBE8DD1CB2234100F3CA19 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		56CBE8F61CB2323900F3CA19 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				5694C4471CB7C31000C384B1 /* Information-Icon.png */,
+				5694C4491CB7C9A400C384B1 /* Refresh-Icon.png */,
+				56CBE9031CB232A300F3CA19 /* Cisco-Meraki.png */,
+				56CBE8F71CB2327D00F3CA19 /* MR-Offer.png */,
+				56CBE8F81CB2327D00F3CA19 /* MS-Offer.png */,
+				56CBE8F91CB2327D00F3CA19 /* MX-Offer.png */,
+				56CBE8FA1CB2327D00F3CA19 /* Settings-Icon.png */,
+				56CBE8FB1CB2327D00F3CA19 /* Shopping-With-Miles-Image.png */,
+				56CBE8FC1CB2327D00F3CA19 /* SM-Offer.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,6 +163,7 @@
 				TargetAttributes = {
 					56CBE8D81CB2234100F3CA19 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4C6PGUE499;
 					};
 				};
 			};
@@ -136,9 +190,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56CBE9011CB2327D00F3CA19 /* Shopping-With-Miles-Image.png in Resources */,
 				56CBE8EC1CB2234100F3CA19 /* LaunchScreen.storyboard in Resources */,
+				5694C4481CB7C31000C384B1 /* Information-Icon.png in Resources */,
+				56CBE9021CB2327D00F3CA19 /* SM-Offer.png in Resources */,
+				5694C44A1CB7C9A400C384B1 /* Refresh-Icon.png in Resources */,
+				56CBE8FF1CB2327D00F3CA19 /* MX-Offer.png in Resources */,
+				56CBE9041CB232A300F3CA19 /* Cisco-Meraki.png in Resources */,
 				56CBE8E91CB2234100F3CA19 /* Assets.xcassets in Resources */,
+				56CBE8FE1CB2327D00F3CA19 /* MS-Offer.png in Resources */,
+				56CBE9001CB2327D00F3CA19 /* Settings-Icon.png in Resources */,
 				56CBE8E71CB2234100F3CA19 /* Main.storyboard in Resources */,
+				56CBE8FD1CB2327D00F3CA19 /* MR-Offer.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,7 +212,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56CBE8E41CB2234100F3CA19 /* ViewController.m in Sources */,
+				56CBE8E41CB2234100F3CA19 /* BeaconViewController.m in Sources */,
+				56CBE8F41CB2258200F3CA19 /* OfferViewController.m in Sources */,
+				56CBE9071CB2438300F3CA19 /* SettingsViewController.m in Sources */,
 				56CBE8E11CB2234100F3CA19 /* AppDelegate.m in Sources */,
 				56CBE8DE1CB2234100F3CA19 /* main.m in Sources */,
 			);
@@ -265,7 +330,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ShoppingWithMiles_ObjC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jcmconsulting.ShoppingWithMiles-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -276,7 +343,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ShoppingWithMiles_ObjC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jcmconsulting.ShoppingWithMiles-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -302,6 +371,7 @@
 				56CBE8F21CB2234100F3CA19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
