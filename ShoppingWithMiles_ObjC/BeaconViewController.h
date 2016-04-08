@@ -1,5 +1,5 @@
 //
-//  main.m
+//  BeaconViewController.h
 //  ShoppingWithMiles_ObjC
 //
 //  Created by James McKee on 15/02/2016.
@@ -12,10 +12,14 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "AppDelegate.h"
+#import <CoreLocation/CoreLocation.h>
+#import "OfferViewController.h"
+#import "SettingsViewController.h"
 
-int main(int argc, char * argv[]) {
-    @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
-    }
-}
+@interface BeaconViewController : UIViewController<CLLocationManagerDelegate>
+
+// Dimiss current offer
+-(void)offerDismissed;
+
+@end
+

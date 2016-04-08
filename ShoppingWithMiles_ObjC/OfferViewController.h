@@ -1,5 +1,5 @@
 //
-//  main.m
+//  OfferViewController.h
 //  ShoppingWithMiles_ObjC
 //
 //  Created by James McKee on 15/02/2016.
@@ -12,10 +12,12 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "AppDelegate.h"
 
-int main(int argc, char * argv[]) {
-    @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
-    }
-}
+
+@interface OfferViewController : UIViewController
+
+@property (nonatomic, strong) UILabel * offerLabel;
+@property (nonatomic, strong) UIImageView * offerImageView;
+@property (nonatomic, strong) UIImageView * offerLogoView;
+
+@end
