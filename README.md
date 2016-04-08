@@ -13,6 +13,7 @@ The purpose of this application is to demonstrate one of the many use cases BLE 
 This application relies on the following UUID being configured for operation: E2C56DB5-DFFB-48D2-0002-D0F5A71096E0
 
 Offer UUID Pairs
+
 Offer 1: MAJ:0/MIN:1 
 Offer 2: MAJ:0/MIN:2                  
 Offer 3: MAJ:0/MIN:3 
