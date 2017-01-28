@@ -1,7 +1,7 @@
 # shopping-app
 Name: Shopping with Miles
 
-Version: 1.4
+Version: 1.5 (Updated to support iOS10)
 
 Author Comments: “Shopping WIth Miles“ Objective-C Example/Demonstration Application
 
